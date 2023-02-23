@@ -1,0 +1,691 @@
+::-webkit-scrollbar{
+    width:.375rem
+}
+::-webkit-scrollbar-track{
+    background:hsla(0,0%,100%,.05);
+    border-radius:.625rem
+}
+::-webkit-scrollbar-thumb{
+    background-color:#e505cf;
+    border-radius:.625rem
+}
+
+
+body {
+    background-color: transparent;
+    user-select: none;
+}
+
+
+
+.arcade-main-panel {
+    background:#271959;
+    width: 1100px;
+    height: 670px;
+    margin-top: 200px;
+    margin-left: 400px;
+}
+
+
+
+#avaible-fights-text {
+    color: white;
+    font-family:IBM Plex Sans,sans-serif;
+    font-size: 25px;
+    font-weight: thin;
+    padding-top: 25px;
+}
+
+
+
+#button-create-team {
+    color: white;
+    font-family:IBM Plex Sans,sans-serif;
+    font-weight: thin;
+    border-color: transparent;
+    border-radius: 5px;
+    background-color: #e505cf;;
+    height: 44px;
+    width: 370px;
+    font-size: 19px;
+    margin-top: -10px;
+}
+
+
+#button-create-team:hover {
+    background-color: #8f4789;;
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+.party-box-informations {
+    margin-top: 25px;
+    border: 2px solid;
+    border-color: rgba(139, 139, 139, 0.7);
+    width: 550px;
+    min-height:200px;
+
+}
+
+
+.party-box-info-box-helper {
+    width: 700px;
+    overflow: auto;
+    height: 530px;
+    margin-top: 10px;
+}
+
+
+
+
+#tryb-text{
+    font-family:IBM Plex Sans,sans-serif;
+    font-weight: thin;
+    color:white;
+    margin-left: -450px;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+
+
+
+#tryb-text-var {
+    font-family:IBM Plex Sans,sans-serif;
+    font-weight: regular;
+    color:#e505cf;
+    margin-left: -385px;
+    font-size: 16px;
+    margin-top: -33px;
+}
+
+
+
+
+
+
+
+
+
+#gun-text {
+    font-family:IBM Plex Sans,sans-serif;
+    font-weight: thin;
+    color:white;
+    margin-left: -270px;
+    font-size: 16px;
+    margin-top: -35px;
+}
+
+
+
+
+#gun-text-var {
+    font-family:IBM Plex Sans,sans-serif;
+    font-weight: regular;
+    color:#e505cf;
+    margin-left: -165px;
+    font-size: 16px;
+    margin-top: -33px;
+}
+
+
+
+
+
+#round-text {
+        font-family:IBM Plex Sans,sans-serif;
+    font-weight: thin;
+    color:white;
+    margin-left: 25px;
+    font-size: 16px;
+    margin-top: -35px;
+}
+
+
+
+
+#round-text-var {
+    font-family:IBM Plex Sans,sans-serif;
+    font-weight: regular;
+    color:#e505cf;
+    margin-left: 160px;
+    font-size: 16px;
+    margin-top: -33px;
+}
+
+
+
+
+
+
+#stawka-text {
+    font-family:IBM Plex Sans,sans-serif;
+font-weight: thin;
+color:white;
+margin-left: 315px;
+font-size: 16px;
+margin-top: -35px;
+}
+
+
+
+
+#stawka-text-var {
+    font-family:IBM Plex Sans,sans-serif;
+    font-weight: regular;
+    color:#e505cf;
+    margin-left: 423px;
+    font-size: 16px;
+    margin-top: -33px;
+}
+
+
+
+
+
+.team-color-dot-informations-pink {
+    background-color: #e505cf;
+    width: 9px;
+    height: 9px;
+    margin-left: -470px;
+    margin-top: 40px;
+    border-radius: 25px;
+}
+
+
+
+.team-color-dot-informations-blue{
+    background-color: rgb(89, 170, 247);
+    width: 9px;
+    height: 9px;
+    margin-left: -470px;
+    margin-top: 40px;
+    border-radius: 25px;
+}
+
+
+
+#name-surname-info-box {
+    font-family:IBM Plex Sans,sans-serif;
+    font-weight: thin;
+    color:white;
+    margin-left: -340px;
+    font-size: 25px;
+    margin-top: -19px;
+}
+
+
+
+
+#button-join-team {
+    color: white;
+    font-family:IBM Plex Sans,sans-serif;
+    font-weight: thin;
+    border-color: transparent;
+    border-radius: 5px;
+    background-color: #e505cf;;
+    height: 44px;
+    width: 135px;
+    margin-left: -333px;
+    font-size: 19px;
+    margin-top: -2px;
+    margin-bottom: 20px;
+}
+
+
+#button-join-team:hover {
+    background-color: #8f4789;;
+    transition: 1s;
+}
+
+
+
+#tryb-walki-text-creating{
+    font-family:IBM Plex Sans,sans-serif;
+    font-weight: thin;
+color: white;
+font-size: 20px;
+margin-left: 110px;
+padding-top: 40px;
+}
+
+
+
+.versus1v1-info-box{
+    width: 180px;
+    height: 170px;
+    background-color: transparent;
+    background-color: #e505cf;;
+    border: 2px solid;
+    border-color: rgba(139, 139, 139, 0.7);
+    margin-left: 110px;
+}
+
+
+
+.versus2v2-info-box{
+    width: 180px;
+    height: 170px;
+    background-color: transparent;
+    border: 2px solid;
+    border-color: rgba(139, 139, 139, 0.7);
+    margin-left: 330px;
+    margin-top: -174px;
+}
+
+.versus3v3-info-box{
+    width: 180px;
+    height: 170px;
+    background-color: transparent;
+    border: 2px solid;
+    border-color: rgba(139, 139, 139, 0.7);
+    margin-left: 110px;
+    margin-top: 25px;
+}
+
+.versus6v6-info-box{
+    width: 180px;
+    height: 170px;
+    background-color: transparent;
+    border: 2px solid;
+    border-color: rgba(139, 139, 139, 0.7);
+    margin-left: 330px;
+    margin-top: -174px;
+}
+
+
+
+#vs1person1 {
+color: white;
+font-size: 40px;
+margin-left: 60px;
+margin-top: 65px;
+}
+
+
+#vs1person2 {
+    color: white;
+    font-size: 40px;
+    margin-left: 0px;
+    }
+
+
+
+    #name-of-type-fight-text {
+    font-family:IBM Plex Sans,sans-serif;
+    font-weight: regular;
+    color: white;
+    font-size: 20px;
+    margin-left: 72px;
+    margin-top: 10px;
+
+    }
+
+
+
+
+    #vs2person1 {
+        color: white;
+        font-size: 40px;
+        margin-left: 20px;
+        margin-top: 65px;
+        }
+        
+        
+        #vs2person2 {
+            color: white;
+            font-size: 40px;
+            margin-left: 0px;
+            }
+
+
+
+
+
+#choose-staweczka-text {
+            font-family:IBM Plex Sans,sans-serif;
+            font-weight: thin;
+        color: white;
+        font-size: 20px;
+        margin-left: 110px;
+    padding-top: 15px;
+        }
+
+
+
+
+.stawka-100-box {
+    width:120px;
+    height: 38px;
+
+    margin-left: 110px;
+    background-color: #e505cf;;
+    border: 2px solid;
+    border-color: rgba(139, 139, 139, 0.7);
+}
+
+
+.stawka-250-box {
+    width:120px;
+    height: 38px;
+    margin-left: 250px;
+
+    margin-top: -42px;
+    border: 2px solid;
+    border-color: rgba(139, 139, 139, 0.7);
+}
+
+
+.stawka-500-box {
+    width:120px;
+    height: 38px;
+    margin-left: 390px;
+
+    margin-top: -42px;
+    border: 2px solid;
+    border-color: rgba(139, 139, 139, 0.7);
+}
+
+.stawka-1000-box {
+    width:120px;
+    height: 38px;
+    margin-left: 110px;
+    margin-top: 15px;
+
+    position: fixed;
+    border: 2px solid;
+    border-color: rgba(139, 139, 139, 0.7);
+}
+
+
+.stawka-2000-box {
+    width:120px;
+    height: 38px;
+    margin-left: 250px;
+    margin-top: 15px;
+    position: fixed;
+
+
+    border: 2px solid;
+    border-color: rgba(139, 139, 139, 0.7);
+}
+
+
+
+.stawka-5000-box {
+    width:120px;
+    height: 38px;
+    margin-left: 390px;
+    margin-top: 15px;
+    position: fixed;
+
+    border: 2px solid;
+    border-color: rgba(139, 139, 139, 0.7);
+}
+
+
+
+#name-of-stawka-stawka {
+    font-family:IBM Plex Sans,sans-serif;
+    font-weight: thin;
+    color: white;
+    font-size: 15px;
+margin-top: 10px;
+}
+
+
+
+
+#choose-gun-text {
+    font-family:IBM Plex Sans,sans-serif;
+    font-weight: thin;
+color: white;
+font-size: 20px;
+margin-left: 630px;
+margin-top: -535px;
+
+}
+
+
+
+
+.musket-gun-box-choose {
+    width:180px;
+    height: 80px;
+    margin-left: 630px;
+    margin-top: 20px;
+
+    background-color: #e505cf;;
+    border: 2px solid;
+    border-color: rgba(139, 139, 139, 0.7);
+}
+
+
+.railgun-gun-box-choose {
+    width:180px;
+    height: 80px;
+    margin-left: 830px;
+    margin-top: -83.5px;
+
+
+    border: 2px solid;
+    border-color: rgba(139, 139, 139, 0.7);
+}
+
+
+
+.rewolwer-gun-box-choose {
+    width:180px;
+    height: 80px;
+    margin-left: 630px;
+    margin-top: 22px;
+
+
+    border: 2px solid;
+    border-color: rgba(139, 139, 139, 0.7);
+}
+
+
+
+.hellbringer-gun-box-choose {
+    width:180px;
+    height: 80px;
+    margin-left: 830px;
+    margin-top: -84px;
+
+
+    border: 2px solid;
+    border-color: rgba(139, 139, 139, 0.7);
+}
+
+
+.atomizer-gun-box-choose {
+    width:180px;
+    height: 80px;
+    margin-left: 630px;
+    margin-top: 24px;
+
+
+    border: 2px solid;
+    border-color: rgba(139, 139, 139, 0.7);
+}
+
+.versus1v1-info-box:hover{
+    background-color: #e505cf;;
+ transition: 2s;
+}
+
+
+.versus2v2-info-box:hover{
+    background-color: #e505cf;;
+ transition: 2s;
+}
+
+.versus3v3-info-box:hover{
+    background-color: #e505cf;;
+ transition: 2s;
+}
+
+
+.versus6v6-info-box:hover{
+    background-color: #e505cf;;
+ transition: 2s;
+}
+
+
+.stawka-100-box:hover {
+    background-color: #e505cf;;
+ transition: 2s;
+}
+
+.stawka-250-box:hover {
+    background-color: #e505cf;;
+ transition: 2s;
+}
+
+.stawka-500-box:hover {
+    background-color: #e505cf;;
+ transition: 2s;
+}
+
+.stawka-1000-box:hover {
+    background-color: #e505cf;;
+ transition: 2s;
+}
+
+.stawka-2000-box:hover {
+    background-color: #e505cf;;
+ transition: 2s;
+}
+
+.stawka-5000-box:hover {
+    background-color: #e505cf;;
+ transition: 2s;
+}
+
+.atomizer-gun-box-choose:hover {
+    background-color: #e505cf;;
+ transition: 2s;
+}
+
+.hellbringer-gun-box-choose:hover {
+    background-color: #e505cf;;
+ transition: 2s;
+}
+
+
+.rewolwer-gun-box-choose:hover {
+    background-color: #e505cf;;
+ transition: 2s;
+}
+
+.musket-gun-box-choose:hover {
+    background-color: #e505cf;;
+ transition: 2s;
+}
+
+.railgun-gun-box-choose:hover {
+    background-color: #e505cf;;
+ transition: 2s;
+}
+
+
+#name-of-guns-guns {
+font-family:IBM Plex Sans,sans-serif;
+font-weight: thin;
+color: white;
+font-size: 20px;
+margin-top: 30px;
+}
+
+
+
+#ilosc-rundek-text {
+font-family:IBM Plex Sans,sans-serif;
+font-weight: thin;
+color: white;
+font-size: 20px;
+margin-left: 630px;
+padding-top: 87px;
+}
+
+
+
+.runda-1000-box {
+    width:110px;
+    height: 38px;
+    margin-left: 630px;
+    margin-top: 15px;
+    background-color: #e505cf;;
+
+    border: 2px solid;
+    border-color: rgba(139, 139, 139, 0.7);
+}
+
+.runda-2000-box {
+    width:110px;
+    height: 38px;
+    margin-left: 765px;
+    margin-top: -42px;
+
+
+    border: 2px solid;
+    border-color: rgba(139, 139, 139, 0.7);
+}
+
+
+
+.runda-5000-box {
+    width:110px;
+    height: 38px;
+    margin-left: 900px;
+    margin-top: -42px;
+
+
+    border: 2px solid;
+    border-color: rgba(139, 139, 139, 0.7);
+}
+
+
+.runda-1000-box:hover {
+    background-color: #e505cf;;
+    transition: 2s;
+}
+
+.runda-2000-box:hover {
+    background-color: #e505cf;;
+    transition: 2s;
+}
+
+.runda-5000-box:hover {
+    background-color: #e505cf;;
+    transition: 2s;
+}
+
+
+#start-fight-really-button {
+    color: white;
+    font-family:IBM Plex Sans,sans-serif;
+    font-weight: thin;
+    border-color: transparent;
+    border-radius: 5px;
+    background-color: #e505cf;;
+    height: 44px;
+    width: 385px;
+    font-size: 19px;
+    margin-top: 15px;
+    margin-left: 630px;
+}
+
+
+#start-fight-really-button:hover {
+    background-color: #8f4789;;
+    transition: 1s;
+}
