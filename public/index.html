@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v6.1.1/css/pro.min.css">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="js/index.js"></script>
+    </head>
+    <body>
+        
+        
+        <div  class="system">
+            <div class="car-dealer-heist-pop-up-box" id="car-dealer-heist-pop-up-box">
+
+        </div>
+
+        <div class="maze-bank-heist-pop-up-box" id="maze-bank-heist-pop-up-box">
+
+        </div>
+
+        <div class="upgrades-pop-up-box" id="upgrades-pop-up-box">
+
+        </div>
+
+
+        <!-- <div class="transfer-pop-up-box" id="transfer-pop-up-box">
+            <div class="transfer-popper">
+                <div class="transfer-popup">
+                <p id="pop-up-transfer-text">Przelej kryptowalutę</p>
+                <p id="pop-up-transfer-desc">Odblokowywanie: Upgrade liczby członków #1</p>
+                <button id="pop-up-transfer-button">Odblokuj</button>
+                <button id="pop-up-transfer-button2" onclick="declineUpgrades()">Anuluj</button>
+                </div>
+            </div>
+        </div> -->
+
+<div class="navbar">
+<p id="activegroup">AKTYWNA GRUPA</p>
+<p id="groupName">OskarDev</p>
+<div class="lvl-nav">
+    
+</div>
+<button id="homeButton" onmouseout="OldhomeChangeColor()" onmouseover="homeChangeColor()" onclick="homeClick()">
+    <i class="fa-light fa-house" id="houseIcon"></i>
+    <p id="homeButtonText">Ekran Główny</p>     
+</button>
+
+<button id="employeeButton" onmouseout="OldemployeeChangeColor()" onmouseover="employeeChangeColor()" onclick="employeeClick()">
+    <i class="fa-light fa-users" id="peopleIcon"></i>  
+    <p id="employeeButtonText">Członkowie</p>   
+</button>
+
+<button id="upgradesButton" onmouseout="OldupgradesChangeColor()" onmouseover="upgradesChangeColor()" onclick="upgradesClick()">
+    <i class="fa-light fa-star" id="upgradesIcon"></i>   
+    <p id="upgradesButtonText">Ulepszenia</p>  
+</button>
+
+<button id="statsButton" onmouseout="OldstatsChangeColor()" onmouseover="statsChangeColor()" onclick="statsClick()">
+    <i class="fa-light fa-signal" id="statsIcon"></i>
+    <p id="statsButtonText">Statystyki</p>     
+</button>
+
+
+<button id="missionsButton" onmouseout="OldmissionsChangeColor()" onmouseover="missionsChangeColor()" onclick="missionsClick()">
+    <i class="fa-light fa-users-rectangle" id="missionsIcon"></i>    
+    <p id="missionsButtonText">Zadania</p> 
+</button>
+
+<button id="walletButton" onmouseout="OldwalletChangeColor()" onmouseover="walletChangeColor()" onclick="walletClick()">
+    <i class="fa-light fa-dollar-sign" id="walletIcon"></i>     
+    <p id="walletButtonText">Portfel</p>
+</button>
+
+</div>
+
+<div class="lvl-info">
+<p id="lvl-info-text">Ekran Główny</p>
+<p id="lvl-info-text-level">Lvl: 0</p>
+<p id="lvl-info-points">0/1000</p>
+<div class="lvl-info-progressbar">
+<div class="lvl-info-progressbar-fill"
+</div> <!-- PROGRESSBAR -->
+</div> <!-- PROGRESSBAR-FILL -->
+</div> <!-- NAVBAR -->
+
+<div class="main-content" id="main-content">
+
+
+
+
+
+
+</div> <!-- Main-Content -->
+
+</div> <!-- SYSTEM -->
+</body>
+</html>

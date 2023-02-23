@@ -1,0 +1,3001 @@
+body {
+    background-color: red;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 5px;
+}
+
+
+::-webkit-scrollbar-track {
+        background-color: hsla(0,0%,100%,.1);
+    border-radius: 5px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #11facd; 
+    border-radius: 5px;
+}
+
+
+
+
+.system {
+
+    width : 1500px;
+    height : 800px;
+    margin-left: 200px;
+    margin-top : 140px;
+    border-radius:  0px;
+    position: relative;
+    background: linear-gradient(294.78deg,rgba(85,0,255,.1) -1.52%,rgba(85,0,255,0) 50%),linear-gradient(133.96deg,rgba(17,250,205,.1),transparent 74.55%),#131419;
+
+}
+
+
+#activegroup {
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 78px;
+    padding-top : 80px;
+    font-family: Calibri, Calibri;
+    color : rgba(255, 255, 255, 0.315);
+    margin: 0;
+    padding-left : 78px;
+}
+
+
+#groupName {
+    font-size: 42px;
+    font-weight: 600;
+    margin-top: 25px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : rgb(255, 255, 255);
+    margin : 0;
+    padding-left: 80px;
+    padding-top : -10px;
+    margin-top: -1px;
+}
+
+
+
+
+
+#homeButton {
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 260px;
+    height: 55px;
+    background-color: transparent;
+    border: solid 2px;
+    margin-left: 75px;
+    margin-top : 60px;
+    border-color: #11facd;
+}
+
+
+#homeButtonText {
+    color: white;
+    font-weight: bold;
+    font-family: Calibri;
+    margin: 0;
+    margin-left: -3px;
+    margin-top: -22px;
+    font-size : 18px;
+    
+}
+
+
+#houseIcon {
+    color: #11facd;;
+    margin: 0;
+    margin-left: -170px;
+    padding-top: -20px;
+
+    font-size : 21px;
+}
+
+
+
+#homeButton:hover {
+    border-color: #11facd;
+	transition: 1.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#employeeButton {
+    display : flex;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 260px;
+    height: 55px;
+    margin-left :76px;
+    margin-top : 20px;
+    background-color: transparent;
+    border: solid 2px;
+    border-color: hsla(0,0%,100%,.1);
+}
+
+
+#employeeButtonText {
+    color: white;
+    font-weight: bold;
+    font-family: Calibri;
+    margin: 0;
+    padding-left: 16px;
+    padding-top: 13px;
+    font-size : 18px;
+}
+
+
+#peopleIcon {
+    color: rgba(255, 255, 255, 0.438);
+    margin: 0;
+    margin-left: 25px;
+    padding-top: 15px;
+    font-size : 21px;
+}
+
+
+
+#employeeButton:hover {
+    border-color: #11facd;;
+	transition: 1.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+#statsButton {
+    display : flex;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 260px;
+    height: 55px;
+    margin-left :76px;
+    margin-top : 20px;
+    background-color: transparent;
+    border: solid 2px;
+    border-color: hsla(0,0%,100%,.1);
+}
+
+
+#statsButtonText {
+    color: white;
+    font-weight: bold;
+    font-family: Calibri;
+    margin: 0;
+    padding-left: 19px;
+    padding-top: 13px;
+    font-size : 18px;
+}
+
+
+#statsIcon {
+    color: rgba(255, 255, 255, 0.438);
+    margin: 0;
+    margin-left: 25px;
+    padding-top: 15px;
+    font-size : 21px;
+}
+
+
+
+#statsButton:hover {
+    border-color: #11facd;;
+	transition: 1.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#upgradesButton {
+    display : flex;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 260px;
+    height: 55px;
+    margin-left :76px;
+    margin-top : 20px;
+    background-color: transparent;
+    border: solid 2px;
+    border-color: hsla(0,0%,100%,.1);
+}
+
+
+#upgradesButtonText {
+    color: white;
+    font-weight: bold;
+    font-family: Calibri;
+    margin: 0;
+    padding-left: 19px;
+    padding-top: 13px;
+    font-size : 18px;
+}
+
+
+#upgradesIcon {
+    color: rgba(255, 255, 255, 0.438);
+    margin: 0;
+    margin-left: 25px;
+    padding-top: 15px;
+    font-size : 21px;
+}
+
+
+
+#upgradesButton:hover {
+    border-color: #11facd;;
+	transition: 1.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+#missionsButton {
+    display : flex;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 260px;
+    height: 55px;
+    margin-left :76px;
+    margin-top : 20px;
+    background-color: transparent;
+    border: solid 2px;
+    border-color: hsla(0,0%,100%,.1);
+}
+
+
+#missionsButtonText {
+    color: white;
+    font-weight: bold;
+    font-family: Calibri;
+    margin: 0;
+    padding-left: 19px;
+    padding-top: 13px;
+    font-size : 18px;
+}
+
+
+#missionsIcon {
+    color: rgba(255, 255, 255, 0.438);
+    margin: 0;
+    margin-left: 25px;
+    padding-top: 15px;
+    font-size : 21px;
+}
+
+
+
+#missionsButton:hover {
+    border-color: #11facd;;
+	transition: 1.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#walletButton {
+    display : flex;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 260px;
+    height: 55px;
+    margin-left :76px;
+    margin-top : 20px;
+    background-color: transparent;
+    border: solid 2px;
+    border-color: hsla(0,0%,100%,.1);
+}
+
+
+#walletButtonText {
+    color: white;
+    font-weight: bold;
+    font-family: Calibri;
+    font-size : 18px;
+    margin: 0;
+    padding-left: 24px;
+    padding-top: 13px;
+}
+
+
+#walletIcon {
+    color: rgba(255, 255, 255, 0.438);
+    font-size : 21px;
+    margin: 0;
+    margin-left: 32px;
+    padding-top: 15px;
+}
+
+
+
+#walletButton:hover {
+    border-color: #11facd;;
+	transition: 1.5s;
+}
+
+
+
+
+/* MAIN-LVL-AND-LABEL-TEXT */
+
+
+.lvl-info {
+    padding-left: 500px;
+    margin-top: -580px;
+}
+
+
+#lvl-info-text {
+    color: white;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
+
+#lvl-info-text-level {
+    color: white;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 225px;
+    margin-top: -65px;
+}
+
+
+
+#lvl-info-points {
+    color: white;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 800px;
+    margin-top: -30px;
+}
+
+
+
+.lvl-info-progressbar {
+    width: 622px;
+    height: 5px;
+    background-color: hsla(0,0%,100%,.1);
+    margin-left: 225.5px;
+    margin-top: -3px;
+    border-radius : 5px;
+}
+
+
+
+
+.lvl-info-progressbar-fill {
+    background-color:#11facd;
+    /* MANIPULATE WITH JS */
+    width: 10%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+/* MAIN PANEL WITH CONTENT */
+
+
+
+
+
+
+
+.main-content {
+    width: 870px;
+    height: 550px;
+    margin-top :50px;
+    margin-left: -20px;
+    overflow: auto;
+
+}
+
+
+
+
+
+.account-info-box {
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border: solid 2px;
+    border-color: hsla(0,0%,100%,.1);
+    width: 815px;
+    height: 120px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: transparent;
+}
+
+
+#account-number-box-info {
+    font-size: 23.5px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 30px;
+    margin-left: 19px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : rgb(255, 255, 255);
+}
+
+
+
+#account-avaible-money-box-info {
+    font-size: 14.5px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-left: 19px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+.account-info-box-crypto {
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border: solid 2px;
+    border-color: hsla(0,0%,100%,.1);
+    width: 815px;
+    height: 120px;
+    margin-top: 25px;
+    margin-left: 20px;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+#account-wallet-box-info {
+    font-size: 23.5px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 30px;
+    margin-left: 18px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : rgb(255, 255, 255);
+}
+
+
+
+
+
+#account-crypto-names-slt-box-info {
+    font-size: 14.5px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: -16px;
+    margin-left: 19px;
+    padding-left: 100px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : yellow;
+}
+
+
+
+#account-crypto-names-wave-box-info {
+    font-size: 14.5px;
+    font-weight: 600;
+    margin : 0;
+    margin-top: -31px;
+    margin-left: 19px;
+    padding-left: 46px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : turquoise;
+}
+
+
+#account-crypto-names-csh-box-info {
+    font-size: 14.5px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: 19px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : green;
+}
+
+
+
+#proffesional-level {
+    font-size: 16.5px;
+    font-weight: 600;
+    margin-top: 13px;
+    margin-left: 19px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : white;
+    margin-top: 35px;
+    margin-left: -38px;
+}
+
+
+.profession-box-car-dealer {
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 220px;
+    margin-left: 115px;
+    margin-top: 30px;
+    height: 120px;
+    border: solid 2px;
+    border-color: #11facd;
+}
+
+
+
+
+.profession-box-maze-bank {
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 220px;
+    margin-left: 358px;
+    margin-top: -100px;
+    height: 120px;
+    border: solid 2px;
+    border-color: #11facd;
+}
+
+
+
+#profession-box-car-dealer-lvl {
+    font-size: 15.5px;
+    font-weight: thin;
+    margin-top: 30px;
+    margin-left: 28px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : rgba(255, 255, 255, 0.897);
+}
+
+
+
+#profession-box-car-dealer-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: -34px;
+    margin-left: 83px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : rgba(255, 255, 255, 0.897);
+}
+
+
+
+
+#profession-box-car-dealer-progress {
+    font-size: 14.5px;
+    font-weight: thin;
+    margin-top: 30px;
+    margin-left: 28px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : rgba(255, 255, 255, 0.897);
+    margin-top: 1px;
+}
+
+
+
+#profession-box-car-dealer-progress-int {
+    font-size: 14.5px;
+    font-weight: bold;
+    margin-top: -30px;
+    margin-left: 80px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : rgba(255, 255, 255, 0.897);
+}
+
+
+
+.profession-box-car-dealer-progressbar{
+    width: 170px;
+    height: 5px;
+    background-color: hsla(0,0%,100%,.1);
+    margin-left: 27px;
+    margin-top: -1px;
+    border-radius : 5px;
+}
+
+.profession-box-car-dealer-progressbar-fill {
+    background-color:#11facd;
+    /* MANIPULATE WITH JS */
+    width: 10%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#profession-box-maze-bank-lvl {
+    font-size: 15.5px;
+    font-weight: thin;
+    margin-top: 30px;
+    margin-left: 28px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : rgba(255, 255, 255, 0.897);
+}
+
+
+
+#profession-box-maze-bank-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: -34px;
+    margin-left: 80px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : rgba(255, 255, 255, 0.897);
+}
+
+
+
+
+#profession-box-maze-bank-progress {
+    font-size: 14.5px;
+    font-weight: thin;
+    margin-top: 30px;
+    margin-left: 28px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : rgba(255, 255, 255, 0.897);
+    margin-top: 1px;
+}
+
+
+
+#profession-box-maze-bank-progress-int{
+    font-size: 14.5px;
+    font-weight: bold;
+    margin-top: -30px;
+    margin-left: 80px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : rgba(255, 255, 255, 0.897);
+}
+
+
+
+.profession-box-maze-bank-progressbar {
+    width: 170px;
+    height: 5px;
+    background-color: hsla(0,0%,100%,.1);
+    margin-left: 27px;
+    margin-top: -1px;
+    border-radius : 5px;
+}
+
+
+
+.profession-box-maze-bank-progressbar-fill {
+    background-color:#11facd;
+    /* MANIPULATE WITH JS */
+    width: 10%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+
+/* JS STUFF */
+
+#avaible-missions {
+    font-size: 16.5px;
+    font-weight: 600;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : white;
+    margin: 0;
+    margin-top: 45px;
+    text-align: right;
+    margin-right: -130px;
+}
+
+
+
+.mission-car-dealer-box {
+    margin-top: 35px;
+    width: 790px;
+    height: 243px;
+    margin-left: -90px;
+    background-color: hsla(0,0%,100%,.1); 
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+#mission-car-dealer-text-name {
+    font-size: 25.5px;
+    font-weight: bold;
+    margin: 0;
+    padding: 35px;
+
+
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : white;
+
+}
+
+
+#mission-car-dealer-text-description {
+    font-size: 15.5px;
+    font-weight: thin;
+    margin: 0;
+    margin-left: 35px;
+    margin-top : -20px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : rgba(255, 255, 255, 0.842);
+
+}
+
+
+
+
+
+#mission-car-dealer-text-description-contract {
+    font-size: 17.5px;
+    font-weight: thin;
+    margin: 0;
+    margin-left: 35px;
+    margin-top : 50px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : rgba(255, 255, 255, 0.842);
+
+}
+
+
+
+
+
+
+
+#mission-car-dealer-text-description-money {
+    font-size: 17.5px;
+    font-weight: thin;
+    margin: 0;
+    margin-left: 253px;
+    margin-top : -19.5px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : #11facd;
+
+}
+
+
+
+
+
+
+
+
+
+#mission-car-dealer-text-description-button {
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: thin;
+    Font-family:IBM Plex Sans,sans-serif; 
+    border: 0px;
+    width: 135px;
+    height: 35px;
+    margin-top: 15px;
+    margin-left : 35px;
+    background-color: #11facd;
+}
+
+
+#mission-car-dealer-text-description-button:hover {
+    background-color: #017a62;
+    transition: 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mission-maze-bank-box {
+    margin-top: 35px;
+    width: 790px;
+    height: 243px;
+    margin-left: -90px;
+    background-color: hsla(0,0%,100%,.1); 
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+#mission-maze-bank-text-name {
+    font-size: 25.5px;
+    font-weight: bold;
+    margin: 0;
+    padding: 35px;
+
+
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : white;
+
+}
+
+
+#mission-maze-bank-text-description {
+    font-size: 15.5px;
+    font-weight: thin;
+    margin: 0;
+    margin-left: 35px;
+    margin-top : -20px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : rgba(255, 255, 255, 0.842);
+
+}
+
+
+
+
+
+#mission-maze-bank-text-description-contract {
+    font-size: 17.5px;
+    font-weight: thin;
+    margin: 0;
+    margin-left: 35px;
+    margin-top : 50px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : rgba(255, 255, 255, 0.842);
+
+}
+
+
+
+
+
+
+
+#mission-maze-bank-text-description-money {
+    font-size: 17.5px;
+    font-weight: thin;
+    margin: 0;
+    margin-left: 253px;
+    margin-top : -19.5px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : #11facd;
+
+}
+
+
+
+
+
+
+
+
+
+#mission-maze-bank-text-description-button {
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: thin;
+    Font-family:IBM Plex Sans,sans-serif; 
+    border: 0px;
+    width: 135px;
+    height: 35px;
+    margin-top: 15px;
+    margin-left : 35px;
+    background-color: #11facd;
+}
+
+
+#mission-maze-bank-text-description-button:hover {
+    background-color: #017a62;
+    transition: 2s;
+}
+
+
+
+
+.started-missions {
+    width: 250px;
+    height: 130px;
+    border: 2px solid;
+    border-color:hsla(0,0%,100%,.1);
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+.ended-missions {
+    width: 250px;
+    height: 130px;
+    border: 2px solid;
+    border-color:hsla(0,0%,100%,.1);
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: 320px;
+    margin-top: -134px;
+}
+
+
+
+.stoped-missions {
+    width: 250px;
+    height: 130px;
+    border: 2px solid;
+    border-color:hsla(0,0%,100%,.1);
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: 616px;
+    margin-top: -134px;
+}
+
+
+
+
+
+
+
+.money-from-missions {
+    width: 846px;
+    height: 130px;
+    border: 2px solid;
+    border-color:hsla(0,0%,100%,.1);
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+#stared-missions-int {
+    font-size: 30.5px;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 25px;
+    margin-top: 30px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : #11facd;
+
+}
+
+
+
+
+
+#ended-missions-int {
+    font-size: 30.5px;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 25px;
+    margin-top: 30px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : #11facd;
+
+}
+
+
+
+
+
+#stoped-missions-int {
+    font-size: 30.5px;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 25px;
+    margin-top: 30px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : #11facd;
+
+}
+
+
+
+
+
+
+
+
+#stared-missions-text {
+    font-size: 17.5px;
+    font-weight: bold;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: white;
+    margin-left: 27px;
+    margin-top: 20px;
+}
+
+
+
+#stoped-missions-text {
+    font-size: 17.5px;
+    font-weight: bold;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: white;
+    margin-left: 27px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+#ended-missions-text {
+    font-size: 17.5px;
+    font-weight: bold;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: white;
+    margin-left: 27px;
+    margin-top: 20px;
+}
+
+
+#all-missions-money-text {
+    font-size: 17.5px;
+    font-weight: bold;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: white;
+    margin-left: 27px;
+    margin-top: 25px;
+}
+
+
+
+#all-missions-money-int {
+    font-size: 30.5px;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 27px;
+    margin-top: 20px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color : #11facd;
+
+}
+
+
+
+
+
+
+
+
+
+
+#wallet-number-int {
+    font-size: 14.5px;
+    font-weight: bold;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: white;
+    margin: 0;
+    margin-left: 48px;
+    margin-top: 50px;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+#wallet-transfer-button {
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: thin;
+    Font-family:IBM Plex Sans,sans-serif; 
+    border: 0px;
+    width: 85px;
+    height: 35px;
+    margin-top: -5px;
+    margin-left : 750px;
+    background-color: #11facd;
+}
+
+
+
+.wallet-button-transfer {
+    margin-top: -21px;
+}
+
+
+
+#wallet-transfer-button:hover {
+    background-color: #017a62;
+    transition: 2s;
+}
+
+
+
+
+#wallet-name-currency {
+    font-size: 13.5px;
+    font-weight: thin;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: rgba(255, 255, 255, 0.705);
+    margin: 0;
+    margin-left: 130px;
+    margin-top: 30px;
+    padding: 0;
+}
+
+
+
+
+#wallet-symbol {
+    font-size: 13.5px;
+    font-weight: thin;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: rgba(255, 255, 255, 0.705);
+    margin: 0;
+    margin-left: 400px;
+    margin-top: -15px;
+    padding: 0;
+}
+
+
+
+
+#wallet-count {
+    font-size: 13.5px;
+    font-weight: thin;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: rgba(255, 255, 255, 0.705);
+    margin: 0;
+    margin-left: 650px;
+    margin-top: -15px;
+    padding: 0;
+}
+
+
+
+
+.slt-coin {
+    width: 820px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 30px;
+    border-radius:  35px;
+    border: 2px solid ;
+    border-color: hsla(0,0%,100%,.1);
+}
+
+
+
+#crypto-sultanium-wallet {
+    font-size: 14.5px;
+    font-weight: bold;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: white;
+    margin-left: 105px;
+    margin-top: 18px;
+}
+
+
+
+#crypto-sultanium-wallet-symbol {
+    font-size: 14.5px;
+    font-weight: bold;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: white;
+    margin-left: 379px;
+    margin-top: -30px;
+}
+
+
+
+
+
+
+#crypto-sultanium-wallet-count {
+    font-size: 14.5px;
+    font-weight: bold;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: white;
+    margin-left: 628px;
+    margin-top: -30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wave-coin {
+    width: 820px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 30px;
+    border-radius:  35px;
+    border: 2px solid ;
+    border-color: hsla(0,0%,100%,.1);
+}
+
+
+
+#crypto-wave-wallet {
+    font-size: 14.5px;
+    font-weight: bold;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: white;
+    margin-left: 105px;
+    margin-top: 18px;
+}
+
+
+
+#crypto-wave-wallet-symbol {
+    font-size: 14.5px;
+    font-weight: bold;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: white;
+    margin-left: 374px;
+    margin-top: -30px;
+}
+
+
+
+
+
+
+#crypto-wave-wallet-count {
+    font-size: 14.5px;
+    font-weight: bold;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: white;
+    margin-left: 628px;
+    margin-top: -30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.csh-coin {
+    width: 820px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 30px;
+    border-radius:  35px;
+    border: 2px solid ;
+    border-color: hsla(0,0%,100%,.1);
+}
+
+
+
+#crypto-csh-wallet {
+    font-size: 14.5px;
+    font-weight: bold;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: white;
+    margin-left: 105px;
+    margin-top: 18px;
+}
+
+
+
+#crypto-csh-wallet-symbol {
+    font-size: 14.5px;
+    font-weight: bold;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: white;
+    margin-left: 379px;
+    margin-top: -30px;
+}
+
+
+
+
+
+
+#crypto-csh-wallet-count {
+    font-size: 14.5px;
+    font-weight: bold;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: white;
+    margin-left: 628px;
+    margin-top: -30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Upgrades */
+
+
+
+
+
+.upgrades1-box {
+    margin-top: 35px;
+    width: 810px;
+    height: 243px;
+    margin-left: 40px;
+    background-color: hsla(0,0%,100%,.1); 
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+
+
+.upgrades2-box {
+    margin-top: 35px;
+    width: 810px;
+    height: 243px;
+    margin-left: 40px;
+    background-color: hsla(0,0%,100%,.1); 
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+
+
+.upgrades3-box {
+    margin-top: 35px;
+    width: 810px;
+    height: 243px;
+    margin-left: 40px;
+    background-color: hsla(0,0%,100%,.1); 
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+
+
+
+
+.upgrades4-box {
+    margin-top: 35px;
+    width: 810px;
+    height: 243px;
+    margin-left: 40px;
+    background-color: hsla(0,0%,100%,.1); 
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+
+
+
+
+.upgrades5-box {
+    margin-top: 35px;
+    width: 810px;
+    height: 243px;
+    margin-left: 40px;
+    background-color: hsla(0,0%,100%,.1); 
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+#upgrades1-box-text {
+    font-size: 24.5px;
+    padding: 30px;
+    font-weight: bold;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: white;
+}
+
+
+
+
+#upgrades1-box-description {
+    font-size: 14.5px;
+    font-weight: thin;
+    margin-left: 30px;
+    margin-top: -40px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: rgba(255, 255, 255, 0.829);
+}
+
+
+
+
+
+
+
+
+#upgrades1-box-price-description {
+    font-size: 15px;
+    font-weight: thin;
+    margin-left: 30px;
+    margin-top: 50px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: rgba(255, 255, 255, 0.829);
+}
+
+
+
+
+
+
+#upgrades1-box-price-description-count {
+    font-size: 15px;
+    font-weight: thin;
+    margin-left: 145px;
+    margin-top: -31.5px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: #11facd;
+}
+
+
+#upgrades1-box-price-description-needed {
+    font-size: 15px;
+    font-weight: thin;
+    margin-left: 30px;
+    margin-top: -5px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: rgba(255, 255, 255, 0.829);
+}
+
+
+
+
+
+
+
+.upgrades1-box-needed{
+    width: 55px;
+    height: 22px;
+    border-radius: 5px;
+    margin-left: 290px;
+    background-color: rgba(255, 255, 255, 0.137);
+    margin-top: -32.5px;
+}
+
+
+
+#upgrades1-box-needed-text {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-top: 1px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: rgba(255, 255, 255, 0.829);
+    border-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+#upgrades1-button {
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    Font-family:IBM Plex Sans,sans-serif; 
+    border: 0px;
+    width: 150px;
+    height: 35px;
+    margin-top:  5px;
+    margin-left :30px;
+    background-color: #11facd;
+}
+
+
+
+#upgrades1-button:hover {
+    background-color: #017a62;
+    transition: 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#upgrades2-box-text {
+    font-size: 24.5px;
+    padding: 30px;
+    font-weight: bold;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: white;
+}
+
+
+
+
+#upgrades2-box-description {
+    font-size: 14.5px;
+    font-weight: thin;
+    margin-left: 30px;
+    margin-top: -40px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: rgba(255, 255, 255, 0.829);
+}
+
+
+
+
+
+
+
+
+#upgrades2-box-price-description {
+    font-size: 15px;
+    font-weight: thin;
+    margin-left: 30px;
+    margin-top: 50px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: rgba(255, 255, 255, 0.829);
+}
+
+
+
+
+
+
+#upgrades2-box-price-description-count {
+    font-size: 15px;
+    font-weight: thin;
+    margin-left: 145px;
+    margin-top: -31.5px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: #11facd;
+}
+
+
+#upgrades2-box-price-description-needed {
+    font-size: 15px;
+    font-weight: thin;
+    margin-left: 30px;
+    margin-top: -5px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: rgba(255, 255, 255, 0.829);
+}
+
+
+
+
+
+
+
+.upgrades2-box-needed{
+    width: 200px;
+    height: 22px;
+    border-radius: 5px;
+    margin-left: 290px;
+    background-color: rgba(255, 255, 255, 0.137);
+    margin-top: -32.5px;
+}
+
+
+
+#upgrades2-box-needed-text {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-top: 1px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: rgba(255, 255, 255, 0.829);
+    border-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+#upgrades2-button {
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    Font-family:IBM Plex Sans,sans-serif; 
+    border: 0px;
+    width: 150px;
+    height: 35px;
+    margin-top:  5px;
+    margin-left :30px;
+    background-color: #11facd;
+}
+
+
+
+#upgrades2-button:hover {
+    background-color: #017a62;
+    transition: 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#upgrades3-box-text {
+    font-size: 24.5px;
+    padding: 30px;
+    font-weight: bold;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: white;
+}
+
+
+
+
+#upgrades3-box-description {
+    font-size: 14.5px;
+    font-weight: thin;
+    margin-left: 30px;
+    margin-top: -40px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: rgba(255, 255, 255, 0.829);
+}
+
+
+
+
+
+
+
+
+#upgrades3-box-price-description {
+    font-size: 15px;
+    font-weight: thin;
+    margin-left: 30px;
+    margin-top: 50px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: rgba(255, 255, 255, 0.829);
+}
+
+
+
+
+
+
+#upgrades3-box-price-description-count {
+    font-size: 15px;
+    font-weight: thin;
+    margin-left: 145px;
+    margin-top: -31.5px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: #11facd;
+}
+
+
+#upgrades3-box-price-description-needed {
+    font-size: 15px;
+    font-weight: thin;
+    margin-left: 30px;
+    margin-top: -5px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: rgba(255, 255, 255, 0.829);
+}
+
+
+
+
+
+
+
+.upgrades3-box-needed{
+    width: 200px;
+    height: 22px;
+    border-radius: 5px;
+    margin-left: 290px;
+    background-color: rgba(255, 255, 255, 0.137);
+    margin-top: -32.5px;
+}
+
+
+
+#upgrades3-box-needed-text {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-top: 1px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: rgba(255, 255, 255, 0.829);
+    border-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+#upgrades3-button {
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    Font-family:IBM Plex Sans,sans-serif; 
+    border: 0px;
+    width: 150px;
+    height: 35px;
+    margin-top:  5px;
+    margin-left :30px;
+    background-color: #11facd;
+}
+
+
+
+#upgrades3-button:hover {
+    background-color: #017a62;
+    transition: 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#upgrades4-box-text {
+    font-size: 24.5px;
+    padding: 30px;
+    font-weight: bold;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: white;
+}
+
+
+
+
+#upgrades4-box-description {
+    font-size: 14.5px;
+    font-weight: thin;
+    margin-left: 30px;
+    margin-top: -40px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: rgba(255, 255, 255, 0.829);
+}
+
+
+
+
+
+
+
+
+#upgrades4-box-price-description {
+    font-size: 15px;
+    font-weight: thin;
+    margin-left: 30px;
+    margin-top: 50px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: rgba(255, 255, 255, 0.829);
+}
+
+
+
+
+
+
+#upgrades4-box-price-description-count {
+    font-size: 15px;
+    font-weight: thin;
+    margin-left: 145px;
+    margin-top: -31.5px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: #11facd;
+}
+
+
+#upgrades4-box-price-description-needed {
+    font-size: 15px;
+    font-weight: thin;
+    margin-left: 30px;
+    margin-top: -5px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: rgba(255, 255, 255, 0.829);
+}
+
+
+
+
+
+
+
+.upgrades4-box-needed{
+    width: 130px;
+    height: 22px;
+    border-radius: 5px;
+    margin-left: 290px;
+    background-color: rgba(255, 255, 255, 0.137);
+    margin-top: -32.5px;
+}
+
+
+
+#upgrades4-box-needed-text {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-top: 1px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: rgba(255, 255, 255, 0.829);
+    border-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+#upgrades4-button {
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    Font-family:IBM Plex Sans,sans-serif; 
+    border: 0px;
+    width: 150px;
+    height: 35px;
+    margin-top:  5px;
+    margin-left :30px;
+    background-color: #11facd;
+}
+
+
+
+#upgrades4-button:hover {
+    background-color: #017a62;
+    transition: 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#upgrades5-box-text {
+    font-size: 24.5px;
+    padding: 30px;
+    font-weight: bold;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: white;
+}
+
+
+
+
+#upgrades5-box-description {
+    font-size: 14.5px;
+    font-weight: thin;
+    margin-left: 30px;
+    margin-top: -40px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: rgba(255, 255, 255, 0.829);
+}
+
+
+
+
+
+
+
+
+#upgrades5-box-price-description {
+    font-size: 15px;
+    font-weight: thin;
+    margin-left: 30px;
+    margin-top: 50px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: rgba(255, 255, 255, 0.829);
+}
+
+
+
+
+
+
+#upgrades5-box-price-description-count {
+    font-size: 15px;
+    font-weight: thin;
+    margin-left: 145px;
+    margin-top: -31.5px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: #11facd;
+}
+
+
+#upgrades5-box-price-description-needed {
+    font-size: 15px;
+    font-weight: thin;
+    margin-left: 30px;
+    margin-top: -5px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: rgba(255, 255, 255, 0.829);
+}
+
+
+
+
+
+
+
+.upgrades5-box-needed{
+    width: 130px;
+    height: 22px;
+    border-radius: 5px;
+    margin-left: 290px;
+    background-color: rgba(255, 255, 255, 0.137);
+    margin-top: -32.5px;
+}
+
+
+
+#upgrades5-box-needed-text {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-top: 1px;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: rgba(255, 255, 255, 0.829);
+    border-color: transparent;
+}
+
+
+
+
+
+
+.pop-up-windows {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#upgrades5-button {
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    Font-family:IBM Plex Sans,sans-serif; 
+    border: 0px;
+    width: 150px;
+    height: 35px;
+    margin-top:  5px;
+    margin-left :30px;
+    background-color: #11facd;
+}
+
+
+
+#upgrades5-button:hover {
+    background-color: #017a62;
+    transition: 2s;
+}
+
+
+
+
+
+
+/* Employees */
+
+
+
+
+
+.employees-button-class-deploy {
+    margin-top: -21px;
+}
+
+
+#employees-button-add {
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: thin;
+    Font-family:IBM Plex Sans,sans-serif; 
+    border: 0px;
+    width: 160px;
+    height: 35px;
+    margin-top: -5px;
+    margin-left : 678px;
+    background-color: #11facd;
+}
+
+
+
+#employees-button-add:hover {
+    background-color: #017a62;
+    transition: 2s;
+}
+
+
+
+#employees-limit-max {
+    font-size: 14.5px;
+    font-weight: bold;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: white;
+    margin: 0;
+    margin-left: 48px;
+    margin-top: 50px;
+    padding: 0;
+}
+
+
+
+
+
+#employee-name-surname-template {
+    font-size: 13.5px;
+    font-weight: thin;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: rgba(255, 255, 255, 0.705);
+    margin: 0;
+    margin-left: 130px;
+    margin-top: 30px;
+    padding: 0;
+}
+
+
+
+
+
+
+#employee-grade-template {
+    font-size: 13.5px;
+    font-weight: thin;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: rgba(255, 255, 255, 0.705);
+    margin: 0;
+    margin-left: 390px;
+    margin-top: -15px;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+#employee-last-avaible-template {
+    font-size: 13.5px;
+    font-weight: thin;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: rgba(255, 255, 255, 0.705);
+    margin: 0;
+    margin-left: 570px;
+    margin-top: -15px;
+    padding: 0;
+}
+
+
+
+
+
+.employee-info-box {
+    width: 820px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 30px;
+    border-radius:  35px;
+    border: 2px solid ;
+    border-color: hsla(0,0%,100%,.1);
+}
+
+
+
+#employee-name-surname {
+    font-size: 14.5px;
+    font-weight: bold;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: white;
+    margin-left: 100px;
+    margin-top: -14px;
+}
+
+
+
+
+
+
+
+
+#employee-name-rank {
+    font-size: 14.5px;
+    font-weight: bold;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: white;
+    margin-left: 360px;
+    margin-top: -30px;
+}
+
+
+
+
+
+
+
+
+
+
+#employee-name-date {
+    font-size: 14.5px;
+    font-weight: bold;
+    Font-family:IBM Plex Sans,sans-serif; 
+    color: white;
+    margin-left: 540px;
+    margin-top: -30px;
+}
+
+
+
+
+
+.employees-management {
+    margin-top: -49px;
+}
+
+
+#manage-employee {
+    color: white;
+    margin-left: 760px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+
+
+
+
+#manage-employee:hover {
+    color: #11facd;
+    transition: 2s;
+}
+
+
+
+
+#delete-employee {
+    color: white;
+    margin-left: 725px;
+    font-size: 20px;
+    
+}
+
+
+
+
+#delete-employee:hover {
+    color: #11facd;
+    transition: 2s;
+}
+
+
+
+.manage-icon {
+    margin-top: -28.5px;
+}
+
+
+
+.employee-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #11facd;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Pop Ups */
+
+
+
+
+
+
+.car-dealer-heist {
+    position: fixed;
+    width: 78.2%;
+    height: 74.2%;
+    background-color: rgba(12, 12, 12, 0.788);
+    display: grid;
+}
+
+
+
+.car-dealer-popup {
+    margin-top: 285px;
+    width: 710px;
+    height: 173px;
+    margin-left: 440px;
+    background:#131419;
+    border-radius: 15px;
+
+}
+
+
+#pop-up-car-dealer-text {
+    color: white;
+    font-weight: thin;
+    font-size: 23px;
+    margin-left: 40px;
+    margin-top: 40px;
+    Font-family:IBM Plex Sans,sans-serif; 
+}
+
+
+
+
+
+
+
+
+#pop-up-car-dealer-button {
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: thin;
+    Font-family:IBM Plex Sans,sans-serif; 
+    border: 0px;
+    width: 290px;
+    height: 43px;
+    margin-top: 5px;
+    margin-left : 360px;
+    background-color: #11facd;
+}
+
+
+
+
+
+
+
+#pop-up-car-dealer-button:hover {
+    background-color: #017a62;
+    transition: 2s;
+}
+
+
+
+
+
+
+
+
+
+#pop-up-car-dealer-button2 {
+    position: fixed;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: thin;
+    color: white;
+    Font-family:IBM Plex Sans,sans-serif; 
+    border: 0px;
+    width: 290px;
+    height: 43px;
+    margin-top: 5px;
+    margin-left : -610px;
+    background-color: hsla(0,0%,100%,.1);
+}
+
+
+
+
+
+
+
+#pop-up-car-dealer-button2:hover {
+    background-color: #8f8f8f;
+    transition: 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.maze-bank-heist {
+    position: fixed;
+    width: 78.2%;
+    height: 74.2%;
+    background-color: rgba(12, 12, 12, 0.788);
+    display: grid;
+}
+
+
+
+.maze-bank-popup {
+    margin-top: 285px;
+    width: 710px;
+    height: 173px;
+    margin-left: 440px;
+    background:#131419;
+    border-radius: 15px;
+
+}
+
+
+#pop-up-maze-bank-text {
+    color: white;
+    font-weight: thin;
+    font-size: 23px;
+    margin-left: 40px;
+    margin-top: 40px;
+    Font-family:IBM Plex Sans,sans-serif; 
+}
+
+
+
+
+
+
+
+
+#pop-up-maze-bank-button {
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: thin;
+    Font-family:IBM Plex Sans,sans-serif; 
+    border: 0px;
+    width: 290px;
+    height: 43px;
+    margin-top: 5px;
+    margin-left : 360px;
+    background-color: #11facd;
+}
+
+
+
+
+
+
+
+#pop-up-maze-bank-button:hover {
+    background-color: #017a62;
+    transition: 2s;
+}
+
+
+
+
+
+
+
+
+
+#pop-up-maze-bank-button2 {
+    position: fixed;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: thin;
+    color: white;
+    Font-family:IBM Plex Sans,sans-serif; 
+    border: 0px;
+    width: 290px;
+    height: 43px;
+    margin-top: 5px;
+    margin-left : -610px;
+    background-color: hsla(0,0%,100%,.1);
+}
+
+
+
+
+
+
+
+#pop-up-maze-bank-button2:hover {
+    background-color: #8f8f8f;
+    transition: 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.upgrades-popper {
+    position: fixed;
+    width: 78.2%;
+    height: 74.2%;
+    background-color: rgba(12, 12, 12, 0.788);
+    display: grid;
+}
+
+
+
+.upgrades-popup {
+    margin-top: 270px;
+    width: 480px;
+    height: 223px;
+    margin-left: 500px;
+    background:#131419;
+    border-radius: 15px;
+
+}
+
+
+#pop-up-upgrades-text {
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+    margin-left: 120px;
+    margin-top: 40px;
+    Font-family:IBM Plex Sans,sans-serif; 
+}
+
+
+
+
+#pop-up-upgrades-desc {
+    color: rgba(255, 255, 255, 0.678);
+    font-weight: thin;
+    Font-family:IBM Plex Sans,sans-serif; 
+    font-size: 18px;
+    margin-left: 60px;
+}
+
+
+
+#pop-up-upgrades-button {
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: thin;
+    Font-family:IBM Plex Sans,sans-serif; 
+    border: 0px;
+    width: 170px;
+    height: 43px;
+    margin-top: 8px;
+    margin-left : 240px;
+    background-color: #11facd;
+}
+
+
+
+
+
+
+
+#pop-up-upgrades-button:hover {
+    background-color: #017a62;
+    transition: 2s;
+}
+
+
+
+
+
+
+
+
+
+#pop-up-upgrades-button2 {
+    position: fixed;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: thin;
+    color: white;
+    Font-family:IBM Plex Sans,sans-serif; 
+    border: 0px;
+    width: 170px;
+    height: 43px;
+    margin-top: 8px;
+    margin-left : -350px;
+    background-color: hsla(0,0%,100%,.1);
+}
+
+
+
+
+
+
+
+#pop-up-upgrades-button2:hover {
+    background-color: #8f8f8f;
+    transition: 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.transfer-popper {
+    position: fixed;
+    width: 78.2%;
+    height: 74.2%;
+    background-color: rgba(12, 12, 12, 0.788);
+    display: grid;
+}
+
+
+
+.transfer-popup {
+    margin-top: 190px;
+    width: 410px;
+    height: 453px;
+    margin-left: 520px;
+    background:#131419;
+    border-radius: 10px;
+
+}
+
+
+#pop-up-transfer-text {
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+    margin-left: 120px;
+    margin-top: 40px;
+    Font-family:IBM Plex Sans,sans-serif; 
+}
+
+
+
+
+
+
+
+
+
+
+#pop-up-transfer-desc {
+    color: rgba(255, 255, 255, 0.678);
+    font-weight: thin;
+    Font-family:IBM Plex Sans,sans-serif; 
+    font-size: 18px;
+    margin-left: 60px;
+}
+
+
+
+
+
+
+
+#pop-up-transfer-button {
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: thin;
+    Font-family:IBM Plex Sans,sans-serif; 
+    border: 0px;
+    width: 170px;
+    height: 43px;
+    margin-top: 8px;
+    margin-left : 240px;
+    background-color: #11facd;
+}
+
+
+
+
+
+
+
+#pop-up-transfer-button:hover {
+    background-color: #017a62;
+    transition: 2s;
+}
+
+
+
+
+
+
+
+
+
+#pop-up-transfer-button2 {
+    position: fixed;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: thin;
+    color: white;
+    Font-family:IBM Plex Sans,sans-serif; 
+    border: 0px;
+    width: 170px;
+    height: 43px;
+    margin-top: 8px;
+    margin-left : -350px;
+    background-color: hsla(0,0%,100%,.1);
+}
+
+
+
+
+
+
+
+#pop-up-transfer-button2:hover {
+    background-color: #8f8f8f;
+    transition: 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
